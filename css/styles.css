@@ -1,12 +1,13 @@
 body{
 	font-family: 'Open Sans',sans-serif;
-	background-color: black;
+	background-color:#000;
 }
 #container{
-	width: 1000px;
-	height: 550px;
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/img/bgImg.jpg);
-	margin: 20px auto;	
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/img/calculator-0.jpg);
+    display: flex;
+    background-size: cover;
+    box-shadow: 10px antiquewhite;
 }
 #calculator{
 	width: 320px;
@@ -49,7 +50,7 @@ body{
 	font-size: 15px;
 }
 .number, .empty{
-	background-color: #eaedef;
+	background-color: rgb(255, 255, 255);
 }
 .number, .operator{
 	cursor: pointer;
@@ -62,11 +63,11 @@ body{
 }
 button:nth-child(4){
 	font-size: 20px;
-	background-color: #20b2aa;
+	background-color: #3a79cc;
 }
 button:nth-child(8){
 	font-size: 20px;
-	background-color: #ffa500;
+	background-color: #ee9d08;
 }
 button:nth-child(12){
 	font-size: 20px;
